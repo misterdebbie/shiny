@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Karla', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, html {
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+body {
+  /*background: pink;*/
+  background-color: #e3eaf4;
+}
+h2 {
+  text-align: center;
+  /*font-family: 'EB Garamond', serif;*/
+  font-family: 'Nanum Myeongjo', serif;
+}
+header {
+  /*background-color: #e6ccfc;*/
+  background-color: #839cc4;
+  border-bottom: 1px solid #e6ccfc;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  margin-top: px;
+}
+.em {
+  margin-top: 3px;
+}
+ul {
+  margin: 10px auto;
+  padding: 0 5px;
+  text-align: center;
+}
+li {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 160px;
+}
+li:hover {
+  color: #922ee8;
+  color: #1c1819;
+}
+li a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+}
+li a:hover {
+  color:#e01f73;
+}
+.time {
+  /*background-color: #f2c9de;*/
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 70px;
+}
+.time p {
+  padding:5px;
+  color: deeppink;
+  color: #384251;
+  text-transform: uppercase;
+  /*font-family: 'Nanum Myeongjo', serif;*/
+
+}
+hr {
+  margin-top: 24px;
+  width: 80%;
+}
+.yanghead {
+  margin: 80px auto 10px auto;
+}
+.yanghead h2 {
+  font-size: 36px;
+}
+.parent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  border: .8px solid black;
+  border-radius: 4px;
+  height: 480px;
+  width: 300px;
+  margin: 3px 3px;
+  padding-bottom: 20px;
+  background-color: #efece3;
+}
+.pic img {
+  border: .8px solid black;
+  border-radius: 4px;
+  height: 330px;
+  width: 228px;
+  margin: 18px auto;
+  display: block;
+}
+.pic p {
+  margin: 8px 0 0 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Meie Script', cursive;
+}
+.pic hr {
+  margin: 0 auto 7px auto;
+  width: 60%;
+}
+.boop {
+  width: 100%;
+  margin: 10px auto;
+}
+button {
+  width: 70px;
+  display: block;
+  margin: auto;
+  font-family: 'Meie Script', cursive;
+  font-size: 16px;
+  border-radius: 4px;
+  border: .5px solid black;
+}
+button:hover {
+  background-color: #f9dbde;
+}
