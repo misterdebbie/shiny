@@ -4,7 +4,7 @@
 #### by Debbie Chong
 
 ## View project on heroku
-[Check it out!]()
+[Check it out!](https://pacific-shore-37425.herokuapp.com/)
 
 ## Description
 Review HTML5/CSS3/JavaScript
